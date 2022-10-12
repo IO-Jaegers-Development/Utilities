@@ -2,7 +2,7 @@
     "name": "io-jaegers/utilities",
     "description": "Utility Components to help with web development",
     "type": "library",
-    "license": "MIT License",
+    "license": "MIT",
     "autoload":
     {
         "psr-4":
@@ -26,6 +26,6 @@
     ],
     "require":
     {
-
+        "php": ">=8.1"
     }
 }
