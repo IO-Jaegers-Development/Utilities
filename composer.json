@@ -1,0 +1,31 @@
+{
+    "name": "io-jaegers/utilities",
+    "description": "Utility Components to help with web development",
+    "type": "library",
+    "license": "MIT License",
+    "autoload":
+    {
+        "psr-4":
+        {
+            "IoJaegers\\Utilities\\": "code/",
+            "IoJaegers\\Utilities\\Objects\\": "code/Objects/",
+
+            "IoJaegers\\Utilities\\Text\\": "code/Text/",
+            "IoJaegers\\Utilities\\Text\\Operations\\": "code/Text/Operations/",
+            "IoJaegers\\Utilities\\Text\\Operations\\Templates\\": "code/Text/Operations/Templates/",
+
+            "IoJaegers\\Utilities\\URI\\": "code/URI/"
+        }
+    },
+    "authors":
+    [
+        {
+            "name": "Kent Madsen",
+            "email": "kent.vejrup.madsen@designermadsen.dk"
+        }
+    ],
+    "require":
+    {
+
+    }
+}
