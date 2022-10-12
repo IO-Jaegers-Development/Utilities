@@ -1,5 +1,5 @@
 <?php
-    namespace IoJaegers\Mjoelner\Objects;
+    namespace IoJaegers\Utilities\Objects;
 
 
     class IPv4AddressObject

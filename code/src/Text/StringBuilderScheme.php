@@ -1,5 +1,5 @@
 <?php
-    namespace IoJaegers\Mjoelner\Objects\Text;
+    namespace IoJaegers\Utilities\Text;
 
     use IoJaegers\Mjoelner\Objects\Text\Operations\DeleteString;
     use IoJaegers\Mjoelner\Objects\Text\Operations\InsertString;

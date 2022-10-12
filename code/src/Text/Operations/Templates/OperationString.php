@@ -1,5 +1,5 @@
 <?php
-    namespace IoJaegers\Mjoelner\Objects\Text\Operations\Templates;
+    namespace IoJaegers\Utilities\Text\Operations\Templates;
 
     /**
      *
