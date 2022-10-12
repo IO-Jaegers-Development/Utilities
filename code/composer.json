@@ -1,0 +1,18 @@
+{
+    "name": "io-jaegers/utilities",
+    "description": "Utility Components to help with web development",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "IoJaegers\\Utilities\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kent Madsen",
+            "email": "kent.vejrup.madsen@designermadsen.dk"
+        }
+    ],
+    "require": {}
+}
