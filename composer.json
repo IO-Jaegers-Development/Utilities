@@ -3,11 +3,14 @@
     "description": "Utility Components to help with web development",
     "type": "library",
     "license": "MIT",
+
     "autoload":
     {
         "psr-4":
         {
             "IoJaegers\\Utilities\\": "code/",
+
+            "IoJaegers\\Utilities\\Commands\\": "code/Commands/",
             "IoJaegers\\Utilities\\Objects\\": "code/Objects/",
 
             "IoJaegers\\Utilities\\Text\\": "code/Text/",
