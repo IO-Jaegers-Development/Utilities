@@ -1,15 +1,17 @@
 <?php
-    namespace IoJaegers\Utilities\Objects;
-
-
+	/**
+	 *
+	 */
+	namespace IoJaegers\Utilities\Objects;
+	
+	/**
+	 *
+	 */
     class IPv6AddressObject
     {
-        public function __construct( int $r1, int $r2, int $r3, int $r4 )
+        public function __construct(  )
         {
-            $this->setR1( $r1 );
-            $this->setR2( $r2 );
-            $this->setR3( $r3 );
-            $this->setR4( $r4 );
+			
         }
 
         /**
@@ -21,94 +23,118 @@
         }
 
         // Variables
-        private static string $seperator = '.';
+		const seperator = ':';
 
-        private ?int $r1 = null;
-        private ?int $r2 = null;
-        private ?int $r3 = null;
-        private ?int $r4 = null;
-
-        // Accessors
-        /**
-         * @return string
-         */
-        public static function getSeperator(): string
-        {
-            return self::$seperator;
-        }
-
-        /**
-         * @param string $seperator
-         */
-        public static function setSeperator( string $seperator ): void
-        {
-            self::$seperator = $seperator;
-        }
-
-        /**
-         * @return int|null
-         */
-        public final function getR1(): ?int
-        {
-            return $this->r1;
-        }
-
-        /**
-         * @param int|null $r1
-         */
-        public final function setR1( ?int $r1 ): void
-        {
-            $this->r1 = $r1;
-        }
-
-        /**
-         * @return int|null
-         */
-        public final function getR2(): ?int
-        {
-            return $this->r2;
-        }
-
-        /**
-         * @param int|null $r2
-         */
-        public final function setR2( ?int $r2 ): void
-        {
-            $this->r2 = $r2;
-        }
-
-        /**
-         * @return int|null
-         */
-        public final function getR3(): ?int
-        {
-            return $this->r3;
-        }
-
-        /**
-         * @param int|null $r3
-         */
-        public final function setR3( ?int $r3 ): void
-        {
-            $this->r3 = $r3;
-        }
-
-        /**
-         * @return int|null
-         */
-        public final function getR4(): ?int
-        {
-            return $this->r4;
-        }
-
-        /**
-         * @param int|null $r4
-         */
-        public final function setR4( ?int $r4 ): void
-        {
-            $this->r4 = $r4;
-        }
-
+        private ?string $s1 = null;
+        private ?string $s2 = null;
+        private ?string $s3 = null;
+        private ?string $s4 = null;
+		private ?string $s5 = null;
+		private ?string $s6 = null;
+	
+	
+		// Accessors
+		/**
+		 * @return string|null
+		 */
+		public function getS1(): ?string
+		{
+			return $this->s1;
+		}
+	
+		/**
+		 * @return string|null
+		 */
+		public function getS2(): ?string
+		{
+			return $this->s2;
+		}
+	
+		/**
+		 * @return string|null
+		 */
+		public function getS3(): ?string
+		{
+			return $this->s3;
+		}
+	
+		/**
+		 * @return string|null
+		 */
+		public function getS4(): ?string
+		{
+			return $this->s4;
+		}
+	
+		/**
+		 * @return string|null
+		 */
+		public function getS5(): ?string
+		{
+			return $this->s5;
+		}
+	
+		/**
+		 * @return string|null
+		 */
+		public function getS6(): ?string
+		{
+			return $this->s6;
+		}
+	
+		/**
+		 * @param string|null $s1
+		 */
+		public function setS1(?string $s1): void
+		{
+			$this->s1 = $s1;
+		}
+	
+		/**
+		 * @param string|null $s2
+		 */
+		public function setS2(?string $s2): void
+		{
+			$this->s2 = $s2;
+		}
+	
+		/**
+		 * @param string|null $s3
+		 */
+		public function setS3(?string $s3): void
+		{
+			$this->s3 = $s3;
+		}
+	
+		/**
+		 * @param string|null $s4
+		 */
+		public function setS4(?string $s4): void
+		{
+			$this->s4 = $s4;
+		}
+	
+		/**
+		 * @param string|null $s5
+		 */
+		public function setS5(?string $s5): void
+		{
+			$this->s5 = $s5;
+		}
+	
+		/**
+		 * @param string|null $s6
+		 */
+		public function setS6(?string $s6): void
+		{
+			$this->s6 = $s6;
+		}
+		
+		
+		// Object
+		/**
+		 * @return string
+		 */
         public function toString(): string
         {
             return '';

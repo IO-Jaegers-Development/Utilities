@@ -10,7 +10,7 @@
         {
             "IoJaegers\\Utilities\\": "code/",
 
-            "IoJaegers\\Utilities\\Commands\\": "code/Commands/",
+            "IoJaegers\\Utilities\\Commands\\": "code/Headers/",
             "IoJaegers\\Utilities\\Objects\\": "code/Objects/",
 
             "IoJaegers\\Utilities\\Text\\": "code/Text/",

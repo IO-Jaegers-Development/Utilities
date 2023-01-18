@@ -6,10 +6,10 @@
     {
         public function __construct( int $r1, int $r2, int $r3, int $r4 )
         {
-            $this->setR1( $r1 );
-            $this->setR2( $r2 );
-            $this->setR3( $r3 );
-            $this->setR4( $r4 );
+            $this->setS1( $r1 );
+            $this->setS2( $r2 );
+            $this->setS3( $r3 );
+            $this->setS4( $r4 );
         }
 
         /**
@@ -21,92 +21,77 @@
         }
 
         // Variables
-        private static string $seperator = '.';
+        const seperator = '.';
 
-        private ?int $r1 = null;
-        private ?int $r2 = null;
-        private ?int $r3 = null;
-        private ?int $r4 = null;
+        private ?int $s1 = null;
+        private ?int $s2 = null;
+        private ?int $s3 = null;
+        private ?int $s4 = null;
 
+		
         // Accessors
         /**
-         * @return string
+         * @return int|null
          */
-        public static function getSeperator(): string
+        public final function getS1(): ?int
         {
-            return self::$seperator;
+            return $this->s1;
         }
 
         /**
-         * @param string $seperator
+         * @param int|null $s1
          */
-        public static function setSeperator( string $seperator ): void
+        public final function setS1(?int $s1 ): void
         {
-            self::$seperator = $seperator;
+            $this->s1 = $s1;
         }
 
         /**
          * @return int|null
          */
-        public final function getR1(): ?int
+        public final function getS2(): ?int
         {
-            return $this->r1;
+            return $this->s2;
         }
 
         /**
-         * @param int|null $r1
+         * @param int|null $s2
          */
-        public final function setR1( ?int $r1 ): void
+        public final function setS2(?int $s2 ): void
         {
-            $this->r1 = $r1;
-        }
-
-        /**
-         * @return int|null
-         */
-        public final function getR2(): ?int
-        {
-            return $this->r2;
-        }
-
-        /**
-         * @param int|null $r2
-         */
-        public final function setR2( ?int $r2 ): void
-        {
-            $this->r2 = $r2;
+            $this->s2 = $s2;
         }
 
         /**
          * @return int|null
          */
-        public final function getR3(): ?int
+        public final function getS3(): ?int
         {
-            return $this->r3;
+            return $this->s3;
         }
 
         /**
-         * @param int|null $r3
+         * @param int|null $s3
          */
-        public final function setR3( ?int $r3 ): void
+        public final function setS3(?int $s3 ): void
         {
-            $this->r3 = $r3;
+            $this->s3 = $s3;
         }
 
         /**
          * @return int|null
          */
-        public final function getR4(): ?int
+        public final function getS4(): ?int
         {
-            return $this->r4;
+            return $this->s4;
         }
 
         /**
-         * @param int|null $r4
+         * @param int|null $s4
          */
-        public final function setR4( ?int $r4 ): void
+        public final function setS4(?int $s4 ): void
         {
-            $this->r4 = $r4;
+            $this->s4 = $s4;
         }
 
         public function toString(): string

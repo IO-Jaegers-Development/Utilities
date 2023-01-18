@@ -1,5 +1,5 @@
 <?php
-    namespace IoJaegers\Utilities\Commands;
+    namespace IoJaegers\Utilities\Headers;
 
 
     /**
