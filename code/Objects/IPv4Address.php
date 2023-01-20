@@ -4,12 +4,15 @@
 
     class IPv4AddressObject
     {
-        public function __construct( int $r1, int $r2, int $r3, int $r4 )
+        public function __construct( int $ip1s,
+									 int $ip2s,
+									 int $ip3s,
+									 int $ip4s )
         {
-            $this->setS1( $r1 );
-            $this->setS2( $r2 );
-            $this->setS3( $r3 );
-            $this->setS4( $r4 );
+            $this->setS1( $ip1s );
+            $this->setS2( $ip2s );
+            $this->setS3( $ip3s );
+            $this->setS4( $ip4s );
         }
 
         /**
