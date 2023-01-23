@@ -7,7 +7,7 @@
 	/**
 	 *
 	 */
-    class IPv6AddressObject
+    class IPv6Address
     {
         public function __construct(  )
         {
@@ -26,10 +26,16 @@
 		const seperator = ':';
 
         private ?string $s1 = null;
+		
         private ?string $s2 = null;
-        private ?string $s3 = null;
-        private ?string $s4 = null;
+        
+		private ?string $s3 = null;
+  
+		private ?string $s4 = null;
+		
+		
 		private ?string $s5 = null;
+		
 		private ?string $s6 = null;
 	
 	

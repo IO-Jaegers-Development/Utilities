@@ -2,7 +2,7 @@
     namespace IoJaegers\Utilities\Objects;
 
 
-    class IPv4AddressObject
+    class IPv4Address
     {
         public function __construct( int $ip1s,
 									 int $ip2s,

@@ -1,4 +1,7 @@
 <?php
+	/**
+	 *
+	 */
     namespace IoJaegers\Utilities\Headers;
 
 
@@ -24,7 +27,7 @@
          * @return never
          * @throws \Exception
          */
-        public function execute(): never
+        public final function execute(): never
         {
             if( $this->getRedirectTo() == null )
             {
@@ -34,8 +37,7 @@
             header('Location: ' . $this->getRedirectTo() );
             exit();
         }
-
-
+		
         /**
          * @return string|null
          */
